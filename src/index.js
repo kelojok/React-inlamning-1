@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Routing} from './routes/Routing';
+import {NavigationBar} from './components/navigationbar/NavigationBar';
 
 const App = () => {
     return ( <Routing>
-        <h1>Test123</h1>
+        <NavigationBar />
     </Routing>
     )
 };

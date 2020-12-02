@@ -1,0 +1,13 @@
+.navContainer {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: red;
+}
+.mainText {
+    color:white;
+    cursor: pointer;
+}
+.loginText {
+    color: white;
+    cursor: pointer;
+}
